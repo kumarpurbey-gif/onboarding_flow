@@ -36,12 +36,12 @@ The test plan focuses on validating the onboarding flow and integration of the b
 
 | Priority | Description                                                                 |
 |----------|-----------------------------------------------------------------------------|
-| P1       | Critical path: Extension loads, main widget appears, onboarding steps work   |
-| P2       | Important: UI elements render correctly, user actions trigger expected flows |
-| P3       | Nice-to-have: Edge cases, error messages, non-blocking UI details           |
+| P0       | Critical path: Extension loads, main widget appears, onboarding steps work   |
+| P1       | Important: UI elements render correctly, user actions trigger expected flows |
+| P2       | Nice-to-have: Edge cases, error messages, non-blocking UI details           |
 
 #### Based on `onboarding.spec.ts`:
-- **P1:** Tests that verify the extension is installed, the onboarding widget appears, and the user can complete the onboarding steps.
-- **P2:** Tests for correct rendering of UI components, button clicks, and navigation within the extension.
-- **P3:** Tests for error handling, unexpected user inputs, and visual details.
+- **P7:** Tests that verify the extension is installed, the onboarding widget appears, and the user can complete the onboarding steps.
+- **P6:** Tests for correct rendering of UI components, button clicks, and navigation within the extension.
+- **P4:** Tests for error handling, unexpected user inputs, and visual details.
 
