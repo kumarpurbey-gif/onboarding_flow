@@ -17,7 +17,7 @@ test.describe('Chrome Extension Onboarding Flow', () => {
     await expect(page.getByText('Get started with GPTZero')).toBeVisible();
   });
 
-  test('Step 1: Get to know better -> Next [Priority 7]', async ({ page }) => {
+  test('Step 1: Get to know better -> Next [Priority 4]', async ({ page }) => {
     // Validate the presence of the "Get to know you better" text
     // Validate Next button is enabled after selecting an option
    
@@ -29,13 +29,13 @@ test.describe('Chrome Extension Onboarding Flow', () => {
     
   });
 
-  test('Step 3: Google Docs [Priority 6]', async ({ page, context }) => {
+  test('Step 3: Google Docs [Priority 7]', async ({ page, context }) => {
      // Valdiate the presence of the "AI writing and Instant writing " text
     // Validate Next button is enabled and clickable
     
   });
 
-  test('Step 4: Share GPT [Priority 7]', async ({ page }) => {
+  test('Step 4: Share GPT [Priority 3]', async ({ page }) => {
 
     // Enter and validate all email fields
     // Validate send invite button is enabled and clickable
@@ -45,7 +45,7 @@ test.describe('Chrome Extension Onboarding Flow', () => {
     
   });
 
-  test('Step 6: Finish onboarding and Try it on given option', async ({ page }) => {
+  test('Step 6: Finish onboarding and Try it on given option [Priority 7]', async ({ page }) => {
     // Validate Try it on Google Docs button is enabled and clickable
     // Validate try it on a webpage button is enabled and clickable
    
